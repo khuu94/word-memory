@@ -8,7 +8,7 @@ export default function SelectedWordPairs({
 }: SelectedWordPairsProps) {
     return (
         <div className="w-full max-w-xl bg-reno-sand-100 p-8 rounded-xl">
-            <h2 className="text-xl text-center font-bold mb-4 text-reno-sand-950">
+            <h2 className="text-xl text-center font-bold mb-2 text-reno-sand-950">
                 {children}
             </h2>
             <ul className="flex flex-col justify-between gap-4">

@@ -46,7 +46,7 @@ export default function GameManager({
         <>
             <button
                 onClick={handleAction}
-                className={`text-white w-full rounded-xl p-2 -mt-4 
+                className={`text-white w-60 rounded-xl p-2 -mt-4 mx-12
                     bg-reno-sand-900 hover:bg-reno-sand-950 
                     disabled:bg-reno-sand-400 disabled:text-reno-sand-100 
                     transition-all duration-150 ease-linear`}
